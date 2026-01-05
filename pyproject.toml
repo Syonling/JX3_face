@@ -1,0 +1,19 @@
+[project]
+name = "jx3-face"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Syonling",email = "sandyxue_xs@163.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "numpy (>=2,<2.3)",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "opencv-python (>=4.12.0.88,<5.0.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
